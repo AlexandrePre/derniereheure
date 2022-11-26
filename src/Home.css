@@ -1,0 +1,6 @@
+.logo {
+  position: fixed;
+  left: 42vw;
+  width: 30vh;
+  z-index: 2;
+}

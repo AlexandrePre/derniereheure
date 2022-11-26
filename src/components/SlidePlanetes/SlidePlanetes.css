@@ -1,0 +1,103 @@
+.planete {
+  position: absolute;
+  bottom: 0vh;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 400vw;
+  translate: ("360");
+  overflow-x: auto;
+  height: 90vmin;
+  margin-left: 22vmin;
+}
+
+.container__planet {
+  height: 100%;
+}
+
+.planeteItem:nth-child(1) {
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(2) {
+  margin-top: 14vmin;
+}
+.planeteItem:nth-child(3) {
+  margin-top: 16vmin;
+}
+.planeteItem:nth-child(4) {
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(5) {
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(6) {
+  margin-top: 15vmin;
+}
+.planeteItem:nth-child(7) {
+  margin-top: 20vmin;
+}
+
+.planeteItem:nth-child(8) {
+  margin-top: 30vmin;
+}
+
+.planeteItem:nth-child(9) {
+  margin-top: 10vmin;
+}
+.planeteItem:nth-child(10) {
+  margin-top: 20vmin;
+}
+.planeteItem:nth-child(11) {
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(12) {
+  margin-top: 10vmin;
+}
+
+.planeteItem:nth-child(1) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(2) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(3) img {
+  width: 35vmin;
+}
+.planeteItem:nth-child(4) img {
+  width: 32vmin;
+}
+.planeteItem:nth-child(5) img {
+  width: 18vmin;
+}
+.planeteItem:nth-child(6) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(7) img {
+  width: 20vmin;
+}
+.planeteItem:nth-child(8) img {
+  width: 25vmin;
+}
+.planeteItem:nth-child(9) img {
+  width: 35vmin;
+}
+.planeteItem:nth-child(10) img {
+  width: 18vmin;
+}
+.planeteItem:nth-child(11) img {
+  width: 25vmin;
+}
+.planeteItem:nth-child(12) img {
+  width: 20vmin;
+}
+
+.titleover {
+  color: white;
+  text-align: center;
+  font-size: 3.5vmin;
+  z-index: 20;
+}
+
+.btn-planete {
+  cursor: pointer;
+}

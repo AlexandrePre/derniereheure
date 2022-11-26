@@ -1,0 +1,36 @@
+.planet__stats__details {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planet__stats__details__outter {
+  height: 2vh;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 16px;
+  position: relative;
+}
+
+.planet__stats__details p {
+  width: 80%;
+}
+
+.planet__stats__details__outter span {
+  position: absolute;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.planet__stats__details__inner {
+  height: 2vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(255, 255, 255, 0.8) 0px 18px 36px -18px inset;
+  border-radius: 16px;
+}

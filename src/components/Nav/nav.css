@@ -1,0 +1,44 @@
+.img__navbar {
+  width: 6vmin;
+}
+
+.nav {
+  margin-left: 2vmin;
+}
+
+.container__navbar {
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+  margin-top: 2%;
+}
+
+.navbar__link {
+  list-style-type: none;
+  width: 30vmin;
+  height: 82vh;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1vmin;
+  z-index: 22;
+}
+
+.container__title {
+  color: white;
+  font-family: var(--font-title);
+}
+
+.container__navbar {
+  opacity: 0.6;
+}
+
+.container__navbar:hover {
+  opacity: 1;
+}
+
+.navSoldout {
+  color: rgb(188, 4, 4);
+  animation: blink infinite 2s linear;
+  text-shadow: 3px 3px 5px rgb(74, 74, 74);
+  font-weight: bold;
+}

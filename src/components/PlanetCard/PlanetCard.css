@@ -1,0 +1,92 @@
+.planet__detail__stats__container {
+  position: fixed;
+  top: 15vh;
+  left: 75vw;
+  background-image: url("../../assets/img/cartes/card.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  width: 17vw;
+  font-family: "AlegreyaSans-Regular";
+  text-transform: uppercase;
+  color: whitesmoke;
+  z-index: 50;
+}
+
+.title {
+  font-size: 2rem;
+  padding-top: 8%;
+  font-family: var(--font-title);
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  text-align: center;
+}
+
+.planet__detail__stats__container img {
+  min-height: 40%;
+  max-height: 40%;
+  width: 80%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.planet__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  font-family: "AlegreyaSans-Regular";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 4vmin;
+}
+
+.priceSoldOut {
+  color: rgb(188, 4, 4);
+  animation: blink infinite 2s linear;
+  text-shadow: 3px 3px 5px rgb(74, 74, 74);
+  font-weight: bold;
+}
+
+@keyframes blink {
+  from {
+    scale: 1;
+  }
+  50% {
+    scale: 1.7;
+  } /* ignorée */
+  to {
+    scale: 1;
+  }
+}
+
+.go {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.go img {
+  width: 10vmin;
+  border: none;
+}
+
+.buttonClose {
+  position: absolute;
+  width: 2.5vw;
+  top: 2vh;
+  left: 14vw;
+  cursor: pointer;
+}
+
+.buttonClose img {
+  border: none;
+}
