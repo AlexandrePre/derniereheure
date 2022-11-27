@@ -37,3 +37,34 @@ body {
   font-family: var(--font-title);
   background-color: black;
 }
+
+.Bgmedia {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .Bgmedia {
+    display: block;
+    z-index: 3;
+    width: 50%;
+  }
+
+  .container__chrono {
+    display: none;
+  }
+
+  .planete {
+    display: none;
+  }
+
+  .navbar__link {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .Bgvideo {
+    display: none;
+  }
+}
